@@ -1,0 +1,146 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items:flex-end;
+    gap: 50px;
+    padding: 0px 90px;
+    padding-top: 120px;
+    
+    
+}
+
+#left{
+    height: 100%;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+#left h1{
+    font-size: 90px;
+    font-weight: 500;
+    font-family: sans-serif;
+    line-height: 90px;
+}
+
+#bottom-left{
+    width: 100%;
+    height: 40%;
+}
+
+#color{
+    display: flex;
+    padding: 6px;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin: 20px;
+    border-radius: 60px;
+    border: 2px solid black;
+}
+
+#color h4{
+    font-size: 22px;
+    font-weight: 800;
+    margin-right: 12px;
+}
+
+#color1{
+    width: 20px;
+    height: 20px;
+    background-color: brown;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+#color2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: darkgoldenrod;
+}
+
+#left h2{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+#left p{
+    width: 70%;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+#right{
+    height: 100%;
+    width: 38%;
+    position: relative;
+}
+
+#right-top{
+    height: 60px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#right-top h4{
+    font-size: 20px;
+}
+
+#right-top h4 i{
+    color: goldenrod;
+}
+
+#right img{
+    width: 100%;
+    height: 87%;
+    object-position: top;
+    object-fit: cover;
+}
+
+#black-dot{
+    width: 100px;
+    height:100px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    left: 90%;
+    top: 40%;
+}
+
+#black-dot h5{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#rotated{
+    position: absolute;
+    rotate: -90deg;
+    width: 100%;
+    
+    right: 55%;
+    bottom: 60%;
+}
